@@ -1,10 +1,14 @@
 package crossword.dictionary;
 
-public class Entry {
+import java.io.Serializable;
+
+public class Entry implements Serializable {
 	private String word;
 	private String clue;
 
 	public Entry(String word, String clue) {
+		this.word = word;
+		this.clue = clue;
 
 	}
 

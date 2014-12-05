@@ -1,4 +1,5 @@
 package crossword.dictionary;
+import  crossword.dictionary.*;
 
 import java.util.LinkedList;
 

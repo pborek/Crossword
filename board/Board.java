@@ -1,8 +1,9 @@
 package crossword.board;
 
+import java.io.Serializable;
 import java.util.LinkedList;
 
-public class Board {
+public class Board implements Serializable {
 	// dwuwymiarową tablicę komórek BoardCell reprezentującą krzyżówkę
 	private BoardCell[][] board;
 

@@ -1,5 +1,6 @@
 package crossword;
 
+import java.io.Serializable;
 import java.util.Iterator;
 import java.util.LinkedList;
 
@@ -8,7 +9,7 @@ import crossword.dictionary.CwEntry;
 import crossword.dictionary.Entry;
 import crossword.dictionary.InteliCwDB;
 
-public class Crossword {
+public class Crossword implements Serializable {
 	private LinkedList<CwEntry> entries;
 	private Board b;
 	private InteliCwDB cwdb;

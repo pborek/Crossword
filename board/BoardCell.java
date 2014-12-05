@@ -1,6 +1,8 @@
 package crossword.board;
 
-public class BoardCell {
+import java.io.Serializable;
+
+public class BoardCell implements Serializable {
 	private String content = null;
 
 	public void possition() { // ////???
